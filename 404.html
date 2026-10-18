@@ -7,17 +7,27 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://api.fontshare.com" crossorigin />
+    <link rel="preconnect" href="https://cdn.fontshare.com" crossorigin />
+    <!-- Fontes fora do caminho crítico: media=print não bloqueia a pintura; onload troca para all. -->
     <link
       href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;500;600&family=DM+Mono:wght@400;500&display=swap"
       rel="stylesheet"
+      media="print"
+      onload="this.media='all'"
     />
-    <link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700&display=swap" rel="stylesheet" />
-    <link href="https://api.fontshare.com/v2/css?f[]=switzer@400,500&display=swap" rel="stylesheet" />
+    <link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700&display=swap" rel="stylesheet" media="print" onload="this.media='all'" />
+    <link href="https://api.fontshare.com/v2/css?f[]=switzer@400,500&display=swap" rel="stylesheet" media="print" onload="this.media='all'" />
+    <noscript>
+      <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet" />
+      <link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700&display=swap" rel="stylesheet" />
+      <link href="https://api.fontshare.com/v2/css?f[]=switzer@400,500&display=swap" rel="stylesheet" />
+    </noscript>
     <title>Expctral Registry</title>
+    <link rel="preload" href="/expctral-registry/snapshot.json?v=e5074aa83dd1" as="fetch" crossorigin="anonymous" />
     <meta name="description" content="Expctral Registry: publique, descubra e refrate shaders WebGPU com a procedência de cada criação preservada." />
     <link rel="icon" type="image/svg+xml" href="/expctral-registry/assets/favicon-CEfh43lx.svg" />
-    <script type="module" crossorigin src="/expctral-registry/assets/index-Dl9dfTgR.js"></script>
-    <link rel="stylesheet" crossorigin href="/expctral-registry/assets/index-EvMrWCxc.css">
+    <script type="module" crossorigin src="/expctral-registry/assets/index-DbgR-SGr.js"></script>
+    <link rel="stylesheet" crossorigin href="/expctral-registry/assets/index-DH-5XnVa.css">
   </head>
   <body>
     <div id="root"></div>
