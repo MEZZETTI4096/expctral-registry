@@ -1,4 +1,4 @@
-import{r as d,j as r}from"./index-9kwgzSq-.js";function b({code:e,username:t,onDone:o,doneLabel:a="Continuar"}){const[n,i]=d.useState(!1),[m,u]=d.useState(!1),h=()=>{const s=`Expctral Registry
+import{r as d,j as r}from"./index-9df-p6dx.js";function b({code:e,username:t,onDone:o,doneLabel:a="Continuar"}){const[n,i]=d.useState(!1),[m,u]=d.useState(!1),h=()=>{const s=`Expctral Registry
 Usuário: ${t??""}
 Código de recuperação: ${e}
 
